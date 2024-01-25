@@ -6,7 +6,7 @@
 /*   By: ochouati <ochouati@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 14:30:48 by ochouati          #+#    #+#             */
-/*   Updated: 2024/01/23 23:41:29 by ochouati         ###   ########.fr       */
+/*   Updated: 2024/01/25 18:15:00 by ochouati         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,5 +101,9 @@ bool	_is_dg(char c1, char c2);
 bool	_is_hx(char c1, char c2);
 bool	_is_ss(char c1, char c2);
 bool	_is_speci_format(char c1, char c2);
+// ADDITIONNAL
+void	ft_swap(int *xp, int *yp);
+void	ft_sort_int_tab(int *tab, int size);
+void	ft_free_strs(char **str);
 
 #endif

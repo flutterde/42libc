@@ -4,7 +4,7 @@ SRC = ./ft_atoi.c ./ft_isalnum.c ./ft_strchr.c ./ft_isascii.c ./ft_isdigit.c ./f
 ./ft_strlcpy.c ./ft_calloc.c ./ft_strdup.c ./ft_substr.c ./ft_putchar_fd.c ./ft_putstr_fd.c \
 ./ft_putendl_fd.c ./ft_putnbr_fd.c ./ft_itoa.c ./ft_strjoin.c  ./ft_random.c \
 get_next_line_utils_bonus.c get_next_line_bonus.c  handler_bonus.c ft_printf.c\
-macros_bonus.c ft_helpers.c ft_hexa_handler.c \
+macros_bonus.c ft_helpers.c ft_hexa_handler.c ./ft_swap.c ./ft_sort_int_tab.c ./ft_free_strs.c\
 ./ft_lstnew_bonus.c ./ft_lstadd_front_bonus.c ./ft_lstsize_bonus.c ./ft_lstlast_bonus.c ./ft_lstadd_back_bonus.c \
 ./ft_lstdelone_bonus.c ./ft_lstclear_bonus.c ./ft_lstiter_bonus.c ./ft_lstmap_bonus.c 
 

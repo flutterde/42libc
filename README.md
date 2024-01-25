@@ -55,6 +55,9 @@ Welcome to 42libc, a repository containing a collection of C functions commonly 
 ### Additional Functions
 - `char *ft_random(int size);`
 - `char *get_next_line(int fd);`
+- `void	ft_swap(int *xp, int *yp);`
+- `void	ft_sort_int_tab(int *tab, int size);`
+- `void	ft_free_strs(char **str);`
 
 ### Printf Implementation
 - `int ft_printf(const char *str, ...);`
