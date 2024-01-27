@@ -1,40 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_sort_int_tab.c                                  :+:      :+:    :+:   */
+/*   ft_print_string_bits.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ochouati <ochouati@student.42.fr>          +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/25 18:13:20 by ochouati          #+#    #+#             */
-/*   Updated: 2024/01/25 18:13:34 by ochouati         ###   ########.fr       */
+/*   Created: 2024/01/27 16:18:34 by ochouati          #+#    #+#             */
+/*   Updated: 2024/01/27 16:35:19 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_sort_int_tab(int *tab, int size)
+void	ft_print_string_bits(char *str)
 {
 	int	i;
 	int	j;
-	int	min_ix;
 
 	i = 0;
-	while (i < size - 1)
+	while (str && str[i])
 	{
-		j = i + 1;
-		min_ix = i;
-		while (j < size)
-		{
-			if (tab[j] < tab[min_ix])
-			{
-				min_ix = j;
-			}
-			j++;
-		}
-		if (min_ix != i)
-		{
-			ft_swap(&tab[min_ix], &tab[i]);
-		}
+		j = 7;
+		while (j >= 0)
+			ft_putnbr_fd(((str[i] >> j--) & 1), 1);
 		i++;
+		if (str[i])
+			ft_putchar_fd(' ', 1);
 	}
 }

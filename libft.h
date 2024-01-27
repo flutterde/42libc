@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ochouati <ochouati@student.42.fr>          +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 14:30:48 by ochouati          #+#    #+#             */
-/*   Updated: 2024/01/25 18:15:00 by ochouati         ###   ########.fr       */
+/*   Updated: 2024/01/27 16:37:38 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,5 +105,6 @@ bool	_is_speci_format(char c1, char c2);
 void	ft_swap(int *xp, int *yp);
 void	ft_sort_int_tab(int *tab, int size);
 void	ft_free_strs(char **str);
+void	ft_print_string_bits(char *str);
 
 #endif

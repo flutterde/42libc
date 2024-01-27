@@ -51,7 +51,7 @@ int	ft_printf(const char *str, ...)
 	int		i;
 	int		j;
 
-	if (write(1, 0, 0) == -1) 
+	if (write(1, 0, 0) == -1)
 		return (-1);
 	va_start(ap, str);
 	i = -1;

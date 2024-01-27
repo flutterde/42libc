@@ -58,6 +58,7 @@ Welcome to 42libc, a repository containing a collection of C functions commonly 
 - `void	ft_swap(int *xp, int *yp);`
 - `void	ft_sort_int_tab(int *tab, int size);`
 - `void	ft_free_strs(char **str);`
+- `void	ft_print_string_bits(char *str);`
 
 ### Printf Implementation
 - `int ft_printf(const char *str, ...);`
