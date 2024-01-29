@@ -3,6 +3,8 @@
 
 main.c
 text.txt
+.DS_Store
+
 # Object files
 *.o
 *.ko

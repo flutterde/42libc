@@ -6,7 +6,7 @@
 /*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/06 14:30:48 by ochouati          #+#    #+#             */
-/*   Updated: 2024/01/28 20:54:43 by codespace        ###   ########.fr       */
+/*   Updated: 2024/01/29 16:04:30 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,5 +107,6 @@ void	ft_sort_int_tab(int *tab, int size);
 void	ft_free_strs(char **str);
 void	ft_print_string_bits(char *str);
 void	ft_lstprint_str(t_list *head);
+void	ft_print_strs(char **strs);
 
 #endif

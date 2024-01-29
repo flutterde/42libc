@@ -53,12 +53,16 @@ Welcome to 42libc, a repository containing a collection of C functions commonly 
 - `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));`
 
 ### Additional Functions
+here are some additional functions that can help you with `generating random` string , or for print linked list strings, or printing split words
+
 - `char *ft_random(int size);`
 - `char *get_next_line(int fd);`
 - `void	ft_swap(int *xp, int *yp);`
 - `void	ft_sort_int_tab(int *tab, int size);`
 - `void	ft_free_strs(char **str);`
 - `void	ft_print_string_bits(char *str);`
+- `void	ft_lstprint_str(t_list *head);`
+- `void	ft_print_strs(char **strs);`
 
 ### Printf Implementation
 - `int ft_printf(const char *str, ...);`
