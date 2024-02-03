@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: ochouati <ochouati@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/08 17:26:34 by ochouati          #+#    #+#             */
-/*   Updated: 2024/01/29 16:12:52 by codespace        ###   ########.fr       */
+/*   Created: 2024/02/03 21:04:58 by ochouati          #+#    #+#             */
+/*   Updated: 2024/02/03 21:05:01 by ochouati         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

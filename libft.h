@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: ochouati <ochouati@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/06 14:30:48 by ochouati          #+#    #+#             */
-/*   Updated: 2024/01/29 16:04:30 by codespace        ###   ########.fr       */
+/*   Created: 2024/02/03 21:05:48 by ochouati          #+#    #+#             */
+/*   Updated: 2024/02/03 21:30:26 by ochouati         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,5 +108,6 @@ void	ft_free_strs(char **str);
 void	ft_print_string_bits(char *str);
 void	ft_lstprint_str(t_list *head);
 void	ft_print_strs(char **strs);
+char	*ft_first_word(char *str);
 
 #endif

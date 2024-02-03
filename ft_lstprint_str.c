@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstprint_str.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: ochouati <ochouati@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/28 20:44:29 by codespace         #+#    #+#             */
-/*   Updated: 2024/01/28 20:54:30 by codespace        ###   ########.fr       */
+/*   Created: 2024/02/03 21:04:04 by ochouati          #+#    #+#             */
+/*   Updated: 2024/02/03 21:04:07 by ochouati         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

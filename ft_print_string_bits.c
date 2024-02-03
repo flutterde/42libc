@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_string_bits.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: ochouati <ochouati@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/27 16:18:34 by ochouati          #+#    #+#             */
-/*   Updated: 2024/01/27 16:35:19 by codespace        ###   ########.fr       */
+/*   Created: 2024/02/03 21:04:20 by ochouati          #+#    #+#             */
+/*   Updated: 2024/02/03 21:04:23 by ochouati         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
