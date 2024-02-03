@@ -6,7 +6,7 @@
 /*   By: ochouati <ochouati@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/03 21:05:48 by ochouati          #+#    #+#             */
-/*   Updated: 2024/02/03 21:30:26 by ochouati         ###   ########.fr       */
+/*   Updated: 2024/02/03 22:02:40 by ochouati         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,5 +109,6 @@ void	ft_print_string_bits(char *str);
 void	ft_lstprint_str(t_list *head);
 void	ft_print_strs(char **strs);
 char	*ft_first_word(char *str);
+char	*ft_last_word(char *str);
 
 #endif

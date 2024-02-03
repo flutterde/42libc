@@ -64,6 +64,7 @@ here are some additional functions that can help you with `generating random` st
 - `void	ft_lstprint_str(t_list *head);`
 - `void	ft_print_strs(char **strs);`
 - `char	*ft_first_word(char *str);`
+- `char	*ft_last_word(char *str)`
 
 ### Printf Implementation
 - `int ft_printf(const char *str, ...);`
