@@ -6,28 +6,30 @@
 /*   By: ochouati <ochouati@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/03 21:04:58 by ochouati          #+#    #+#             */
-/*   Updated: 2024/02/03 21:05:01 by ochouati         ###   ########.fr       */
+/*   Updated: 2024/02/29 12:12:25 by ochouati         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*read_line(char **rest, int *rb, int fd)
+char	*read_line(char **rest, int fd)
 {
 	char	*tmp;
 	char	*buff;
+	int		rb;
 
 	tmp = NULL;
 	buff = NULL;
+	rb = 1;
 	buff = malloc(BUFFER_SIZE + 1);
 	if (!buff)
 		return (NULL);
-	while (!tmp && *rb > 0)
+	while (!tmp && rb > 0)
 	{
-		*rb = read(fd, buff, BUFFER_SIZE);
-		if (*rb < 0)
+		rb = read(fd, buff, BUFFER_SIZE);
+		if (rb < 0)
 			break ;
-		buff[*rb] = '\0';
+		buff[rb] = '\0';
 		*rest = _ft_strjoin(*rest, buff);
 		tmp = _ft_strchr(buff, '\n');
 	}
@@ -41,13 +43,13 @@ char	*get_next_line(int fd)
 	static char	*rest[OPEN_MAX];
 	char		*tmp;
 	char		*tmp2;
-	int			rb;
 
-	rb = 1;
 	line = NULL;
+	if (fd < 0 || fd > OPEN_MAX)
+		return (NULL);
 	if ((fd <= 2 && fd != 0) || BUFFER_SIZE <= 0 || read(fd, 0, 0) < 0)
 		return (free(rest[fd]), rest[fd] = NULL, NULL);
-	tmp2 = read_line(&rest[fd], &rb, fd);
+	tmp2 = read_line(&rest[fd], fd);
 	tmp = _ft_strchr(rest[fd], '\n');
 	if (!tmp)
 	{
