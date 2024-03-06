@@ -6,7 +6,7 @@
 /*   By: ochouati <ochouati@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/03 21:05:48 by ochouati          #+#    #+#             */
-/*   Updated: 2024/02/28 21:01:33 by ochouati         ###   ########.fr       */
+/*   Updated: 2024/03/06 17:03:46 by ochouati         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -112,5 +112,7 @@ char	*ft_first_word(char *str);
 char	*ft_last_word(char *str);
 long	ft_atol(char *str);
 void	ft_print_numbers(int c, int *arr);
+int		ft_split_size(char **str);
+char	***ft_split3(char *str, char c1, char c2);
 
 #endif
